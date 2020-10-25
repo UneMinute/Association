@@ -1,0 +1,31 @@
+body {
+    background-color:#fcfcfc!important;
+    color: #242424;
+}  
+a {
+    color:#242424!important;
+}
+a:hover {
+    text-decoration: none!important;
+}
+img.logo {
+    max-width:150px;
+}
+nav {
+    box-shadow: 0px 0px 3px #0000002f;
+}
+.row {
+    margin:3rem auto;
+}
+form {
+    margin:1rem auto;
+}
+tr.current {
+    background-color:#9dc9ad;
+}
+td.activeStatus {
+    color:green;
+}
+td.activeStatus.inactive {
+    color:tomato;
+}
